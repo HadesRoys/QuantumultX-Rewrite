@@ -22,7 +22,8 @@ var body = $response.body;
 
 var obj = JSON.parse(body);
 
-obj.resultData.PRODUCT_NUM = 10;
+obj.resultData.PRODUCT_NUM = 100;
+obj.resultData.EXCHANGE_COUNT = 1;
 
 var newBody = JSON.stringify(obj);
 
